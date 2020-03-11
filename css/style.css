@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 body{
-    background-color: white;
+    background-color: rgba(228, 224, 224, 0.767);
     font-family:'Questrial', sans-serif;
     margin: 0 auto;
 }
@@ -96,6 +96,8 @@ h1, h2, h3{
     background-color: #BDBDBD;
     padding: 20px;
     margin: 10px 10px;
+    border: solid #1e88e5;
+    
 }
 
 .imge_project{
@@ -109,9 +111,10 @@ span{
 
 .content{
     padding: 20px;
-    background:#BDBDBD;
+    background:rgb(207, 207, 207);
     border-radius: 3px;
     box-shadow: blue;
+  
 
 }
 
