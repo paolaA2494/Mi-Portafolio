@@ -1,24 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 body{
-    background-color: rgb(201, 157, 241);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-family:'Questrial', sans-serif;
     margin: 0 auto;
 }
 
+.container{
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
 .header{
-    background-color: cyan;
-    border: 2px solid black;
+    display: block;
+    background-color: #1e88e5;
+    border: 2px solid #757575;
+   
 }
 
 .header_menu{
     color:black;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
 .header_menu ul{
-
+    justify-content: center;
     display:flex;
+    padding-left: 0px;
 }
 
 .header_menu li{
@@ -29,122 +42,106 @@ body{
     text-decoration: none;
     color: black;
     padding: 10px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 .header_menu a:hover{
-     background-color: blue;
-     color: white;
+     color: #757575;
      border-radius: 10px
 }
 
-.container{
-    width: 1000px;
-    margin: 0 auto;
-
+h1, h2, h3{
+    text-align: center;
 }
 
-.banner{
-    color: white;
-    background-color:#ef9964;
-}
-
-.banner .banner_hero{
-    display: flex;
-    justify-content: space-between;
+.banner_hero{
+    display: block;
+    justify-content: center;
     text-align: center;
 
 }
 
-.banner_text-hero{
-    padding: 80px 0 0 80px;
-    font-family: monospace;
-    font-size: 18px;
-}
-
-.portafolio{
-    display: flex;
-    margin: 100px 0;
-}
-
-.portafolio_box{
-    margin: 15px;
-    box-shadow: 0px 1px 8px 2px rgb(114, 223, 231);
-    border-radius: 10px;
-    width: 33%;
-}
-
-.portafolio_box img{
-    border-radius: 10px;
-}
-
-
-.portafolio_card{
-    margin: 20px;
-    padding: 5px;
-}
-
-.portafolio_card button{
-    background-color: cyan;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px blue;
-}
-
-.title{
-    text-align:center;
-    border-left: 6px solid purple;
-    background-color: rgba(128, 128, 128, 0.075);
+.banner_img-hero{
+    margin-top: 20px;
+    border-radius: 100%;
     
 }
 
-.experience{
-    display: flex;
-    margin: 100px 0;
-
+.banner_hero img{
+    border-radius: 100%;
 }
 
+.banner_text-hero{
+    padding: 0 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+.projects{
 
-.experience_box{
-    margin: 15px;
-    box-shadow: 0px 1px 8px 2px cyan;
-    border-radius: 10px;
-    width: 50%
+    margin: 30px auto;
+    padding-top: 20px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    height: 50%;
+    width: 60%;
+    justify-content: center;
 }
 
-.experience_body{
-    box-shadow: 0px -10px 10px 2px #80808059;
-    display: flex;
-    justify-content:space-between;
-    padding: 10px;
+.project{
+
+    background-color: #BDBDBD;
+    padding: 20px;
+    margin: 10px 10px;
 }
 
-.footer{
-    color:white;
-    background-color: blueviolet;
-
-}
-
-.footer .footer_sections{
-    display:flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 20px; 
-}
-
-.footer_sections i{
-    padding: 10px;
-
-}
-
-.copyright p{
-    margin:0;
-    margin-bottom: 0;
-    background-color: black;
+.imge_project{
     text-align:center;
-    color: white;
-    font-style: italic;
+    
+}
+
+span{
+    color: #1e88e5;
+}
+
+.content{
+    padding: 20px;
+    background:#BDBDBD;
+    border-radius: 3px;
+    box-shadow: blue;
+
+}
+
+.main__btn{
+    padding: 10px;
+    background-color: rgba(234, 207, 236, 0.801);
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.main__btn :hover{
+    background-color: #63a426;
+}
+
+.footer {
+    background: #BDBDBD;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #757575;
+   
+}
+
+.footer_icons{
+    text-align: center;
+
 }

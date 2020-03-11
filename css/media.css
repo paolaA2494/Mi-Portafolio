@@ -1,0 +1,53 @@
+@media (max-width:470px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+
+.container{
+ 
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    width: auto;
+    margin: 0 auto;
+
+}
+
+.projects{
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    padding: 5%;
+    align-content: center;
+    text-align: center;
+}
+
+.project{
+    margin-top: auto;
+    width: 300px;
+}
+
+
+.imge_project{
+    justify-content: center;
+    
+}
+
+
+.main__btn{
+    padding: 10px;
+    background-color: rgba(234, 207, 236, 0.801);
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.main__btn :hover{
+    background-color: #63a426;
+}
+}

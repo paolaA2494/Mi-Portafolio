@@ -1,109 +1,193 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
         <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>
         <title>Mi portafolio</title>
 </head>
-
 <body>
+<main class="container">
     <header class="header">
-      <div class="container">
-          <nav class="header_menu">
-            <h1>Mi Portafolio</h1>
-             <ul>
-                 <li><a class="header_link" href="#">Portafolio de servicios</a></li>
-                 <li><a class="header_link" href="#">Experiencia</a></li>
-                 <li><a class="header_link" href="#">Trabajemos juntos</a></li>
-             </ul>
-          </nav>
-        </div>
+        <h1>Mi Portafolio</h1>
+        <h3> Paola Andrea Hernádez Velásquez</h3>
+        <div class="banner_hero"id="Perfil">
+            <div class="banner_img-hero">
+                <img  width="200" height="auto" src="./imagenes/paola.jpg" alt="">
+            </div>
+            <div class="banner_text-hero">
+                <p>Desarrolladora frontend en formación en Academia Geek, ingeniera ambiental de la Universidad de Antioquia, interesada en continuar mi proceso de formación como desarrolladora web e incursionar en el campo laboral, con el fin de fusionar la ingeniería ambiental, con el desarrollo web.
+                </p>
+                <h3>Fortalezas</h3>
+                <ul>
+                    <li>Proactividad.</li>
+                    <li>Trabajo en Equipo.</li>
+                    <li>Orden.</li>
+                    <li>Lógica Matemática.</li>
+                    <li>Gestión de Recursos.</li>
+                    <li>Ingles-Intermedio.</li>
+                    <li>Empatía.</li>
+                    <li>Positivismo.</li>
+                </ul>
+                <h3>Debilidades</h3>
+                <ul>
+                    <li>Impulsividad.</li>
+                    <li>Perfeccionismo.</li>
+                    <li>Dudar de las capacidades adquiridas.</li>
+                </ul>
+                <br>
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li>Manejo de html.</li>
+                    <li>Manejo básco de CSS.</li>
+                    <li>Manejo básico de librerias.</li>
+                    <li>Java Script Básico.</li>
+                </ul>
+                <p>
+                    Para más infromación del perfil dirigirse al icono de Linkedin.
+                </p>
+            </div>
+     </div>
     </header>
-    <section class="banner">
-        <div class="container">
-            <div class="banner_hero">
-                <div class="banner_img-hero">
-                    <img  width="300" height="auto" src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="banner_text-hero">
-                    <h2>Hola mi nombre es <span>Paola Andrea Hernández</span> y soy desarrollador Frontend :D</h2>
-
-                </div>
-            </div>
-
+    <div class="container-projects">
+        <div class="container-header">
+            <nav class="header_menu">
+               <ul>
+                   <li><a class="header_link" href="#Perfil">Perfil</a></li>
+                   <li><a class="header_link" href="#proyectos">Proyectos</a></li>
+                   <li><a class="header_link" href="#contact">Contáctame</a></li>
+               </ul>
+            </nav>
         </div>
-    </section>   
-    <main>
-    <div class="container">
-        <h2 class="title">Portafolio de Servicios</h2>
-        <section class="portafolio">
-            <article class="portafolio_box">
-                 <div class="portafolio_card">
-                     <img src="./imagenes/imagen 1.jpg" width="250" alt="">
-                     <h3>Diseño de Páginas Web</h3>
-                     <button>Ver proyecto</button>
-                 </div>
-            </article>
-            <article class="portafolio_box">
-                <div class="portafolio_card">
-                    <img src="./imagenes/imagen 2.jpg" width="250" alt="">
-                    <h3>Mantenimiento</h3>
-                    <button>Ver proyecto</button>
+        <h3 id="proyectos"><span>---------------</span>Proyectos<span>---------------</span></h3>
+        <div class="projects"> 
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="./imagenes/tp.PNG" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="https://paolaa2494.github.io/tribute-page/" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
                 </div>
-           </article>
-           <article class="portafolio_box">
-            <div class="portafolio_card">
-                <img src="./imagenes/imagen 3.png" width="250" height="200" alt="">
-                <h3>Testing con Jest</h3>
-                <button>Ver proyecto</button>
             </div>
-           </article>
-       </section>
-          <h2 class="title">Mis Experiencias</h2>
-        <section class="experience">
-            <article class="experience_box">
-                <img src="./imagenes/Logo AI.png" alt="" width="300">
-                <div class="experience_body">
-                     <p>Agile Innova</p>
-                     <p>Desarrollador Frontend</p>
-                     <p>2011-2020</p>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
                 </div>
-            </article>
-            <article class="experience_box">
-                <img src="./imagenes/Logo AI.png" alt="" width="300">
-                <div class="experience_body">
-                     <p>Agile Innova</p>
-                     <p>Desarrollador Frontend</p>
-                     <p>2011-2020</p>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
                 </div>
-            </article>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="https://paolaa2494.github.io/tribute-page/" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="content">
+                    <div clas="image_project">
+                        <img width="180" height="120" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHwkQxmSnRulu65KTZXTY9CeD0rLjkPYkvkkibuc23yuAu6e3" alt="Mi Producto">
+                    </div>
+                    <h3>
+                       Tribute Page
+                    </h3>
+                    <p></p>
+                    <a href="" target="_blank"><button class="main__btn">Ver Proyecto</button></a>
+                </div>
+            </div>
+       </div>
+</main>
+ <footer id="contact" class="footer">
+    <div class="container-footer">
+     <div class="footer_sections">
+         <h2>Paola Andrea Hernández</h2>
+         <section>
+            <div class="footer_icons">
+               <a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+               <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+               <a href="https://github.com/paolaA2494" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+               <a href="https://www.linkedin.com/in/paola-andrea-hern%C3%A1ndez-vel%C3%A1squez-038270175/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
         </section>
      </div>
-    </main>
-    <footer class="footer">
-       <div class="container">
-        <div class="footer_sections">
-            <h2>Paola Andrea Hernández</h2>
-            <section>
-               <div class="footer_icons">
-                  <i class="fab fa-facebook-f fa-2x"></i>
-                  <i class="fab fa-instagram fa-2x"></i>
-                  <i class="fab fa-github fa-2x"></i>
-                  <i class="fab fa-linkedin fa-2x"></i>
-
-               </div>
-           </section>
-        </div>
-      </div>
-
-    </footer>
-
-    <div class="copyright">
-        <p>Toodos los derechos resevados AgileInnova 2020-2021</p>
-    </div>
+   </div>
+ </footer>
 </body>
- </html>
+</html>
