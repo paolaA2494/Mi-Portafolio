@@ -4,21 +4,27 @@
         height: auto;
     }
 
-
+img{
+    width: 150px;
+}
 .container{
  
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
     width: auto;
     margin: 0 auto;
 
+}
+.header_menu{
+    display: block;
 }
 
 .projects{
     margin: 0 auto;
     display: block;
     height: auto;
+    width: auto;
     padding: 5%;
     align-content: center;
     text-align: center;
@@ -26,13 +32,13 @@
 
 .project{
     margin-top: auto;
-    width: 300px;
+    width: 100px;
 }
 
 
 .imge_project{
-    justify-content: center;
-    
+    width: 20px;    
+    height: 20px;
 }
 
 
@@ -49,5 +55,9 @@
 
 .main__btn :hover{
     background-color: #63a426;
+}
+
+.footer{
+    width: 100%;
 }
 }
