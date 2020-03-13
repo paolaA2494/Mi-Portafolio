@@ -51,10 +51,12 @@ body{
      border-radius: 10px
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
     text-align: center;
 }
-
+#proyectos{
+    color: #1e88e5 ;
+}
 .banner_hero{
     display: block;
     justify-content: center;

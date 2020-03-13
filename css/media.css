@@ -1,23 +1,46 @@
 @media (max-width:470px){
-    body{
+body{
         width: 100%;
         height: auto;
     }
 
-img{
+.img-profile{
     width: 150px;
 }
 .container{
  
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-    width: auto;
+    width: 100%;
     margin: 0 auto;
+    justify-content: center;
 
 }
-.header_menu{
+.header_menu ul{
     display: block;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-top: 20px;
+   
+}
+#proyectos{
+    color: #1e88e5 ;
+}
+
+.banner_hero{
+    margin-top: 70px;
+}
+
+.banner_text-hero{
+    margin-top: 100px;
 }
 
 .projects{
@@ -26,26 +49,28 @@ img{
     height: auto;
     width: auto;
     padding: 5%;
-    align-content: center;
     text-align: center;
+    
 }
 
 .project{
-    margin-top: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 5px;
     width: 100px;
 }
 
 
-.imge_project{
-    width: 20px;    
-    height: 20px;
+.img-seg{
+    justify-content: center;
+    width: 70px;    
+    height: 80px;
 }
-
 
 .main__btn{
     padding: 10px;
     background-color: rgba(234, 207, 236, 0.801);
-    width: 100%;
+    width: 70px;
     border: 0px;
     border-radius: 2px;
     cursor: pointer;
@@ -61,3 +86,6 @@ img{
     width: 100%;
 }
 }
+
+
+
